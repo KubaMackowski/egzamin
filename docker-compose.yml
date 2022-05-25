@@ -1,0 +1,9 @@
+version: '3'
+services:
+  strona:
+    build: .
+    container_name: strona_egz
+    user: root
+    ports:
+      - "80:80"
+
